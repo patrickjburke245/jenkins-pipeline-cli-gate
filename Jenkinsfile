@@ -3,7 +3,7 @@
 pipeline {
   agent {dockerfile true}
   environment {
-    IMAGE_NAME = "ubuntu:latest"
+    IMAGE_NAME = "liferay/dxp"
     PROJECT_KEY = "default"
   }
   stages {

@@ -4,7 +4,7 @@ pipeline {
   agent {dockerfile true}
   environment {
     IMAGE_NAME = "image1"
-    PROJECT_KEY = "security-project-376222"
+    PROJECT_KEY = "default"
   }
   stages {
     stage('scan') {

@@ -3,7 +3,7 @@
 pipeline {
   agent {dockerfile true}
   environment {
-    IMAGE_NAME = "image1"
+    IMAGE_NAME = "ubuntu:latest"
     PROJECT_KEY = "default"
   }
   stages {

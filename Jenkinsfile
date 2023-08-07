@@ -4,7 +4,7 @@ pipeline {
   agent {dockerfile true}
   environment {
     IMAGE_NAME = "liferay/dxp"
-    PROJECT_KEY = "default"
+    PROJECT_KEY = "orca-demo-for-liferay"
   }
   stages {
     stage('scan') {

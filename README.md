@@ -1,1 +1,2 @@
-1st commit
+## Jenkins Pipeline CLI Gate
+Reach out for details on implementation.
